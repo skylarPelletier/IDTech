@@ -9,6 +9,10 @@ print("Do you wish to hear the story of the king only knights may hear it. If yo
 x = input("What is the Passcode?")
 
 if (x==3):
-   print("The story")
+   print("There once was a great adventurere named Tim")
+   print ("Tim was on a quest to find the legendary sword and save his kingdom")
+   print("After a long and difficult journey he rescued the sword and saved the kingdom")
+   print("Once he returned home he was named an honorable king")
+
 else:
    print("You are not a true knight!")
