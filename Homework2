@@ -1,0 +1,29 @@
+import random
+
+num = random.randrange(1,10)
+print("Welcome to the fortune teller.")
+print("If luck is on your side good fortune may come to you")
+input("When you are ready roll the die to see your fortune.")
+print(num)
+if num ==  0:
+  print("Your Death is iminet")
+elif num==1:
+  print("I'm afraid the fates are not on your side")
+elif num==2:
+  print("You will lose somthing of value")
+elif num==3:
+  print("You will burn yourself today")
+elif num==4:
+  print("Be carfel on Sunday")
+elif num==5:
+  print("You will pass the test")
+elif num==6:
+  print("I see good fourtune in your future")
+elif num==7:
+  print("You will find somthing you have lost")
+elif num==8:
+  print("You will find 20 dollars today")
+elif num==9:
+  print("You will find a good friend today")
+elif num==10:
+  print("You won the lottery")
